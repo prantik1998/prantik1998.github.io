@@ -1,0 +1,102 @@
+.landingpagebackground{
+    /* height:100vh; */
+    width:100%;
+    overflow: hidden;
+}
+
+.heading{
+    padding-left: 10%;
+    padding-top: 24%;
+    font-size:48px;
+    font-family: 'HelveticaNowDisplay-Bold';
+    background: linear-gradient(to right, #ffffff, #999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whiteline {
+    width: 150px;
+    border: none; /* Remove default border */
+    height: 2px; /* Set the thickness of the line */
+    background-color: #FF9900; /* Set the color to white */
+    margin-top:25px; /* Add spacing above and below */
+    margin-bottom:20px; /* Add spacing above and below */
+    margin-left:10%;
+    opacity: 1;
+}
+
+.landingpagetext{
+    margin-top: 25px;
+    padding-left: 10%;
+    font-size: 24px;
+    font-family: 'HelveticaNowDisplay-Regular';
+    color:white;
+}
+
+.StatsHeader{
+    padding-left: 5%;
+    font-size: 32px;
+    font-family: 'HelveticaNowDisplay-Bold';
+    color:white;
+    letter-spacing: 3px;
+}
+
+.StatsText{
+    font-size: 20px;
+    font-family: 'HelveticaNowDisplay-Regular';
+    background: linear-gradient(to right, #ffffff, #999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AchStats{
+    padding-top: 5%;
+    padding-left:1%;
+    padding-bottom: 4%;
+    width:100%;
+}
+
+#acc{
+    font-size:26px;
+}
+
+#pft{
+    margin-left:10px
+}
+
+.orangeColor{
+    color: #FF9900;
+}
+
+.dotted-col {
+    border-right: 2px dashed white; /* Dotted line on the right */
+    padding-right: 10px;
+}
+  
+.dotted-col:last-child {
+    border-right: none; /* Remove border from the last column */
+}
+
+@media only screen and (max-width: 672px) {
+    .StatsHeader{
+        font-size: 24px;
+    }
+    .StatsText{
+        font-size: 16px;
+    }
+    #acc{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:554px){
+    .dotted-col{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:433px){
+    .StatsText{
+        margin-left:5%;
+    }
+}

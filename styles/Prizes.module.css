@@ -1,0 +1,10 @@
+.prizespagebackground{
+    /* height:1300px; */
+    width:100%;
+    /* background: url('../../assets/images/Group\ 222.png'); */
+    overflow: hidden;
+}
+
+.prizespagebackground img{
+    width:100%;
+}

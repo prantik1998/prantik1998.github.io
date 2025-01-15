@@ -1,0 +1,105 @@
+
+.solutionpagebackground{
+    /* height:1100; */
+    width:100%;
+    /* background: url('/images/Group\ 221.png'); */
+    /* overflow: hidden; */
+}
+
+.solutionsHeader{
+    padding-top:6%;
+    padding-left:15%;
+    padding-bottom:5%;
+    font-size: 32px;
+    font-family: 'HelveticaNowDisplay-Bold';
+    background: linear-gradient(to right, #ffffff, #999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.solutionscard1 {
+    padding:5%;
+    width: 347px;
+    height: 400px;
+    border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url('/images/scb1.png');
+}
+
+.solutionscard1 img {
+    width: auto;
+    height: auto;
+}
+
+.solutionscard2 {
+    padding:5%;
+    width: 392px;
+    height: 450px;
+    border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url('/images/scb2.png');
+}
+
+.solutionscard2 img {
+    width: auto;
+    height: auto;
+}
+  
+.solutionscard-content {
+    padding: 16px;
+}
+
+.solutionscard-title {
+    font-size: 16px;
+    font-style:  'HelveticaNowDisplay-Bold';
+    height:auto;
+    padding-left:5%;
+    padding-top:5%;
+    color: white;
+}
+
+.solutionscard-text {
+    font-size: 12px;
+    font-style:  'HelveticaNowDisplay-Regular';
+    padding-left:5%;
+    color: white;
+    height:20px;
+}
+
+.whiteline2{
+    border: none;
+    border-top: 1.5px solid #FFFFFF; /* White line */
+    width: 80%; /* Adjust width as needed */
+    margin-top: 7.5%;
+    opacity: 1;
+}
+
+.readMore{
+    margin-top: 30px;
+    margin-left: 5%;
+    font-size: 12px;
+    font-style:  'HelveticaNowDisplay-Bold';
+    font-weight: 600;
+    padding:10px;
+    border:none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FF9900;
+    color: black;
+}
+
+.readMore:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .solutionscard1{
+        margin-bottom: 10%;
+    }
+    .solutionscard2{
+        margin-bottom: 10%;
+    }
+}

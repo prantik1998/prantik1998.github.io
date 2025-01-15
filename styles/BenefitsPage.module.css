@@ -1,0 +1,75 @@
+
+.benefitspagebackground{
+    /* height:100vh; */
+    width:100%;
+    /* background: url('/images/Rectangle\ 121.png'); */
+    overflow: hidden;
+    display: flex;
+}
+
+.BenHeadline{
+    padding-top: 6%;
+    padding-bottom: 2%;
+    font-size:32px;
+    font-family: 'HelveticaNowDisplay-Bold';
+    background: linear-gradient(to right, #ffffff, #999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-tick-list {
+    list-style: none; /* Remove default bullet points */
+    padding-top: 12%;
+    gap:20%;
+}
+  
+.yellow-tick-list li {
+    position: relative;
+    padding-left: 20px; /* Space for the tick icon */
+    margin-bottom: 35px; /* Add spacing between list items */
+    font-size: 16px;
+    font-family: 'HelveticaNowDisplay-Regular';
+    color: white;
+    text-transform: uppercase;
+}
+  
+.yellow-tick-list li::before {
+    content: '|'; /* Unicode for a checkmark */
+    color: #FF9900; /* Yellow color for the tick */
+    position: absolute;
+    left: 0; /* Position the tick to the left of the text */
+    font-size: 16px; /* Adjust size as needed */
+}
+
+.description-list{
+    background:url("/images/Frame 3490.png");
+    width:477px;
+    height:480px;
+    align-items: "center";
+}
+
+.description-list img{
+    padding-left: 45%;
+    padding-top: 20%;
+}
+
+.description-list p{
+    font-size: 24px;
+    font-family: 'HelveticaNowDisplay-Regular';
+    color: white;
+    padding-top: 15%;
+}
+
+@media only screen and (max-width: 768px){
+    .description-list img{
+        padding-left: 20%;
+        padding-top: 20%;
+    }
+    .description-list p{
+        padding-top: 15%;
+        margin-right: 40%;
+    }
+}
