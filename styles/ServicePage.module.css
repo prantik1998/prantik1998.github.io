@@ -3,7 +3,7 @@
     /* height:1200px; */
     width:100%;
     padding-top: 5%;
-    /* background: url('/images/Group\ 221.png'); */
+    /* background: url('../images/Group\ 221.png'); */
     /* overflow: hidden; */
 }
 
@@ -15,7 +15,7 @@
 .ServicesCard{
     width: 508px;
     height: 200px;
-    background: url('/images/Services/Group\ 282.png');
+    background: url('../images/Services/Group\ 282.png');
     border-radius: 20px;
     margin-bottom: -22px;
 }
@@ -40,7 +40,7 @@
 .BlogCard{
     width:545px;
     height:955px;
-    background: url('/images/Rectangle\ 129.png');
+    background: url('../images/Rectangle\ 129.png');
 }
 
 .BlogCard img{
@@ -103,7 +103,7 @@
     .BlogCard{
         width:400px;
         height:887px;
-        background:url("/images/blogcarsm.png");
+        background:url("../images/blogcarsm.png");
     }
     .BlogCard h2{
         padding-top: 10%;
@@ -126,7 +126,7 @@
 
 @media only screen and (max-width:480px){
     .ServicesCard{
-        background: url('/images/Services/Group388.png');
+        background: url('../images/Services/Group388.png');
         width:387px;
         height:266px;
         margin-left: 0;

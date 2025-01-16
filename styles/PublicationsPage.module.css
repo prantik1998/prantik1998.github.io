@@ -3,7 +3,7 @@
 .publicationspagebackground{
     /* height:1300px; */
     width:100%;
-    /* background: url('/images/Group\ 222.png'); */
+    /* background: url('../images/Group\ 222.png'); */
     overflow: hidden;
 }
 
@@ -47,7 +47,7 @@
 .newsContainer{
     width: 910px; /* Adjust the width */
     height: 800px; /* Adjust the height */
-    background-image: url("/images/publications/NewsBox.png");
+    background-image: url("../images/publications/NewsBox.png");
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -70,7 +70,7 @@
 
 .newsHead{
     margin-top: 40px;
-    background-image: url("/images/publications/NewsHeadBox.png");
+    background-image: url("../images/publications/NewsHeadBox.png");
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -98,14 +98,14 @@
         margin-top: 5%;
         width: 773px; /* Adjust the width */
         height: 679px; /* Adjust the height */
-        background-image: url("/images/publications/NewsBoxmd.png");
+        background-image: url("../images/publications/NewsBoxmd.png");
         background-size: cover; /* Ensures the image covers the entire div */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */
         border-radius: 10px; 
     }
     .newsHead{
-        background-image: url("/images/publications/NewsHeadBoxmd.png");
+        background-image: url("../images/publications/NewsHeadBoxmd.png");
         background-size: cover; /* Ensures the image covers the entire div */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -134,14 +134,14 @@
         margin-top: 5%;
         width: 628px; /* Adjust the width */
         height: 571px; /* Adjust the height */
-        background-image: url("/images/publications/NewsBoxmd.png");
+        background-image: url("../images/publications/NewsBoxmd.png");
         background-size: cover; /* Ensures the image covers the entire div */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */
         border-radius: 10px; 
     }
     .newsHead{
-        background-image: url("/images/publications/NewsHeadBoxmd.png");
+        background-image: url("../images/publications/NewsHeadBoxmd.png");
         background-size: cover; /* Ensures the image covers the entire div */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */

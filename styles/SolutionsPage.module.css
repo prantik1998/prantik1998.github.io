@@ -2,7 +2,7 @@
 .solutionpagebackground{
     /* height:1100; */
     width:100%;
-    /* background: url('/images/Group\ 221.png'); */
+    /* background: url('../images/Group\ 221.png'); */
     /* overflow: hidden; */
 }
 
@@ -25,7 +25,7 @@
     border-radius: 8px;
     border-radius: 8px;
     overflow: hidden;
-    background-image: url('/images/scb1.png');
+    background-image: url('../images/scb1.png');
 }
 
 .solutionscard1 img {
@@ -40,7 +40,7 @@
     border-radius: 8px;
     border-radius: 8px;
     overflow: hidden;
-    background-image: url('/images/scb2.png');
+    background-image: url('../images/scb2.png');
 }
 
 .solutionscard2 img {
